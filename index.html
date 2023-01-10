@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="pb-5">
+    <div class="container mx-auto">
+      <h1 class="text-center">
+        <span class="fw-bold">Quizz </span>Culture Generale.
+        <i class="bi bi-check-square-fill"></i>
+      </h1>
+      <div class="row">
+        <!-- quiz1 -->
+        <div class="col-12 bg-light p-4 w-100 w-md-70 rounded-2 shadow mx-auto mt-5" id="q1">
+          <p class="fs-4 fw-medium">
+            Qui est sacré empereur de France le 2 décembre 1804 ?
+          </p>
+
+          <div class="fs-5">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="quiz1"
+                id="clovis"
+                value="a"
+                checked
+              />
+              <label class="form-check-label" for="clovis"> Clovis </label>
+            </div>
+
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="quiz1"
+                id="abraham"
+                value="b"
+              />
+              <label class="form-check-label" for="abraham">
+                Abraham Lincon
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="quiz1"
+                id="napoleon"
+                value="c"
+              />
+              <label class="form-check-label" for="napoleon">
+                Napoleon Bonaparte
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- quiz 2 -->
+        <div class="col-12 bg-light p-4 w-100 w-md-70 rounded-2 shadow mx-auto mt-5" id="q2">
+          <p class="fs-4 fw-medium">
+            Quand la déclaration d’indépendance des Etats-Unis a-t-elle été
+            votée ?
+          </p>
+
+          <div class="fs-5">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="quiz2"
+                id="4juillet1776"
+                value="a"
+                checked
+              />
+              <label class="form-check-label" for="4juillet1776">
+                4 juillet 1776
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="quiz2"
+                id="18 avril 1856"
+                value="b"
+              />
+              <label class="form-check-label" for="18 avril 1856">
+                18 avril 1856
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="quiz2"
+                id="30 juin 1925"
+                value="c"
+              />
+              <label class="form-check-label" for="30 juin 1925">
+                30 juin 1925
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- quiz 3 -->
+        <div class="col-12 bg-light p-4 w-100 w-md-70 rounded-2 shadow mx-auto mt-5" id="q3">
+          <p class="fs-4 fw-medium">
+            Quand a eu lieu la chute de l’empire romain d'occident ?
+          </p>
+
+          <div class="fs-5">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="quiz3"
+                id="15 ap. J.-C."
+                value="a"
+                checked
+              />
+              <label class="form-check-label" for="15 ap. J.-C.">
+                15 ap. J.-C.
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="quiz3"
+                id="476 ap. J.-C."
+                value="b"
+              />
+              <label class="form-check-label" for="476 ap. J.-C.">
+                476 ap. J.-C.
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="quiz3"
+                id="-740 av. J.-C."
+                value="c"
+              />
+              <label class="form-check-label" for="-740 av. J.-C.">
+                -740 av. J.-C.
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- quiz 4 -->
+        <div class="col-12 bg-light p-4 w-100 w-md-70 rounded-2 shadow mx-auto mt-5" id="q4">
+          <p class="fs-4 fw-medium">Quelle est la capitale de la Slovénie ?</p>
+
+          <div class="fs-5">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="quiz4"
+                id="Ljubljana"
+                value="a"
+                checked
+              />
+              <label class="form-check-label" for="Ljubljana">
+                Ljubljana
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="quiz4"
+                id="Belgrade"
+                value="b"
+              />
+              <label class="form-check-label" for="Belgrade"> Belgrade </label>
+            </div>
+
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="quiz4"
+                id="Bratislava"
+                value="c"
+              />
+              <label class="form-check-label" for="Bratislava">
+                Bratislava
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- quiz 5 -->
+        <div class="col-12 bg-light p-4 w-100 w-md-70 rounded-2 shadow mx-auto mt-5" id="q5">
+          <p class="fs-4 fw-medium">
+            Combien d'habitants compte l'Irlande en 2020 ?
+          </p>
+
+          <div class="fs-5">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="quiz5"
+                id="1,365 Million"
+                value="a"
+                checked
+              />
+              <label class="form-check-label" for="1,365 Million">
+                1,365 Million
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="quiz5"
+                id="21 Millions"
+                value="b"
+              />
+              <label class="form-check-label" for="21 Millions">
+                21 Millions
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="quiz5"
+                id="4,9 Millions"
+                value="c"
+              />
+              <label class="form-check-label" for="4,9 Millions">
+                4,9 Millions
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-3 text-center">
+      <div class="row">
+        <div class="col-12">
+          <button type="button" class="btn btn-light btn-lg" id="valider">
+            Valider <i class="bi bi-check-lg text-success"></i>
+          </button>
+
+          <div
+            class="text-center fs-5 shadow rounded-3 bg-light py-3 px-4 mt-4 w-100 w-md-70 mx-auto fw-medium"
+            id="feedback"
+          >
+            Cliquez sur <span class="fw-bold">valider</span> pour voir les
+            <span class="fw-bold">resultats.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
